@@ -1,7 +1,7 @@
 import re
-pattern=r'[\"]'
-replacement=' '
+import string
 
-input_text='"whoa"he said when he saw me I replied with"whatsup my dude""nothing as such"'
-formatted_text=re.sub(pattern, replacement,input_text)
-print(formatted_text)
+text="hi my name is sherlock"
+
+print(text)
+print("pls check me out")
